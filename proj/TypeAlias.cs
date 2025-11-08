@@ -19,7 +19,7 @@ global using CT = System.Threading.CancellationToken;
 #pragma warning disable CS0436
 global using static Tsinswreng.CsTypeAlias.Nil;
 namespace Tsinswreng.CsTypeAlias {
-	public class Nil{
+	public  partial class Nil{
 		public const nil NIL = null!;
 	}
 }
